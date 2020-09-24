@@ -165,3 +165,58 @@ body {
 .img-skill {
   width: 20%;
 }
+
+.projects {
+  background: antiquewhite;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 5rem;
+  padding: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+.all-projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-img {
+  width: 45rem;
+  height: 35rem;
+}
+
+.btn-light {
+  background: #c4c4c4;
+  width: 100%;
+  color: #333;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn-dark {
+  background: #333;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn-light:hover,
+.btn-dark:hover {
+  background: #fdd90e;
+}
