@@ -13,12 +13,13 @@
     <title>Kevin Balbuena</title>
   </head>
   <body>
+    <!-- this is the header -->
     <header class="header">
       <div><a href="#aboutme-page"> About Me</a></div>
       <div><a href="#projects-page">Projects</a></div>
-      <div>Contact Me</div>
+      <div><a href="#contact-me-page">Contact Me</a></div>
     </header>
-
+    <!-- this is the where my name is display  -->
     <main class="main-pic">
       <div class="text-box">
         <div class="heading-primary-main">Kevin Balbuena</div>
@@ -41,7 +42,7 @@
         </div>
       </div>
     </main>
-
+    <!-- this is the about me page -->
     <article id="aboutme-page" class="about-me">
       <div class="about-me-header">About Me</div>
       <div class="center-paragraph">
@@ -55,6 +56,7 @@
           seeking a role in web development. Let's get in contact!
         </p>
       </div>
+      <!-- All my skill -->
       <h1 class="about-me-header">Skills</h1>
       <div class="grid-logo">
         <div class="zone">
@@ -99,7 +101,7 @@
         </div>
       </div>
     </article>
-
+    <!-- this displays all my projects  -->
     <div id="projects-page" class="projects">
       <div class="project-title">Projects</div>
       <div class="all-projects">
@@ -172,5 +174,32 @@
         </div>
       </div>
     </div>
+    <!-- Contact me page -->
+    <footer id="contact-me-page" class="contact-me">
+      <div class="contact-me-header">Contact Me</div>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label
+            >Your Name: <input class="name-email" type="text" name="name"
+          /></label>
+        </p>
+        <p>
+          <label
+            >Your Email: <input class="name-email type="email" name="email"
+            /></label
+          >
+        </p>
+        <p>
+          <label
+            >Message: <textarea class="message-input" name="message"></textarea>
+          </label>
+        </p>
+        <div data-netlify-recaptcha="true"></div>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      <div class="copyright">© Kevin Balbuena</div>
+    </footer>
   </body>
 </html>
